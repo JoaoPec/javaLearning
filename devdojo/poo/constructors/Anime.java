@@ -27,11 +27,16 @@ public class Anime {
         System.out.println("name: " + this.name + " episodes: " + this.episodes + " genre: " + this.genre);
     }
 
+
     public int getEpisodes() {
         return episodes;
     }
 
     public void setEpisodes(int episodes) {
         this.episodes = episodes;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
